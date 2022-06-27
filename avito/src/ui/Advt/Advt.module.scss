@@ -1,0 +1,23 @@
+.bot {
+  margin-top: 20px;
+  img {
+    width: 115px;
+    min-height: 45px;
+    height: 45px;
+  }
+}
+
+.avito {
+  display: flex;
+
+  ul {
+    display: flex;
+
+    li + li {
+      padding-left: 10px;
+    }
+    a {
+      color: #292929;
+    }
+  }
+}

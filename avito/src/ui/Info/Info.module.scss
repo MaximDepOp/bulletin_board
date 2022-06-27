@@ -1,0 +1,152 @@
+.info {
+  display: flex;
+  margin-top: 100px;
+}
+
+.left {
+  width: 50%;
+}
+.right {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.name {
+  margin-bottom: 25px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.btn {
+  height: 28px !important;
+  font-size: 14px;
+
+  line-height: 20px;
+  margin-right: 10px;
+  min-height: 30px;
+  padding-left: calc(7px + 5px);
+  padding-right: calc(7px + 5px);
+  border: 1px solid #ccc;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    max-width: 630px;
+  }
+}
+
+.btnAdd {
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/heart.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.btnSort {
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/sort.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.btnView {
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+  &:after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.right {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  h1 {
+    line-height: 36px;
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.btnRight {
+  width: 315px;
+  padding: 15px;
+  border-radius: 2px;
+  outline: none;
+  height: 66px;
+  margin-top: 10px;
+}
+
+.where {
+  margin-top: 20px;
+  a {
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 30px;
+    color: #009cf0;
+    cursor: pointer;
+  }
+
+  p {
+    padding-top: 5px;
+  }
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  p {
+    padding-top: 5px;
+  }
+}

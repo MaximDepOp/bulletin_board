@@ -1,0 +1,38 @@
+.select {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-height: 50px;
+  display: flex;
+  border: 1px solid #948FA9;
+  border-radius: 10px;
+
+  input {
+    border: 1px solid #948FA9;
+    outline: none;
+    padding: 0 10px;
+  }
+}
+
+.popup {
+  width: 500px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.map {
+  margin-top: 100px;
+}
+
+.inputSearch {
+  width: 100%;
+}
+
+.btnSearch {
+  min-height: 50px;
+  background-color: #5677ad;
+}

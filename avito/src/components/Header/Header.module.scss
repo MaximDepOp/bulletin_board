@@ -1,0 +1,40 @@
+.h {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 10px 10px -10px rgb(0 0 0 / 10%);
+  z-index: 1000;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.top {
+  background: #948FA9;
+}
+
+.nav {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    align-items: center;
+
+    li + li {
+      padding-left: 20px;
+    }
+
+    li {
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.right svg {
+  color: #fff;
+}

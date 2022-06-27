@@ -1,0 +1,30 @@
+.categories {
+  margin-top: 25px;
+
+  display: flex;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 30px;
+
+    li {
+      padding: 5px 0;
+    }
+  }
+
+  a {
+    font: inherit;
+    color: #009cf0;
+    display: inline;
+    padding: 0;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    background: 0;
+    outline: 0;
+    line-height: inherit;
+  }
+}
